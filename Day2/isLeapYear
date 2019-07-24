@@ -1,0 +1,3 @@
+year = int(input('Please input year: '))
+isLeapYear = (year % 100 == 0 and year % 400 == 0) or (year / 100 != 0 and year % 4 == 0)
+print('Year ', year, 'is' if isLeapYear else 'is not', ' a leap year')
